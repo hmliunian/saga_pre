@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug clipseg test.py (moka mk python3)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/third_party/clipseg/test.py",
+            "cwd": "${workspaceFolder}/third_party/clipseg",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "python": "/home/xuran-yao/code/june_serve/saga_pre/third_party/moka/mk/bin/python3",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/third_party/clipseg"
+            }
+        },
+        {
+            "name": "Debug current file (moka mk python3)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "python": "/home/xuran-yao/code/june_serve/saga_pre/third_party/moka/mk/bin/python3"
+        }
+    ]
+}
